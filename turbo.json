@@ -11,6 +11,12 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**"]
     },
+    "docs#build": {
+    "dependsOn": [],
+    "inputs": ["$TURBO_DEFAULT$", ".env*"],
+    "outputs": [".next/**", "!.next/cache/**"],
+    "passThroughEnv": ["DATABASE_URL", "NODE_ENV"]
+    },
     "dev": {
       "persistent": true,
       "cache": false
