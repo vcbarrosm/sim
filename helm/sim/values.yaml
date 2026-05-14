@@ -151,15 +151,15 @@ app:
     ELEVENLABS_API_KEY: ""                                # ElevenLabs API key for text-to-speech in deployed chat
 
     # UI Branding & Whitelabeling Configuration
-    NEXT_PUBLIC_BRAND_NAME: ""                            # Custom brand name (default "Sim" via envDefaults)
-    NEXT_PUBLIC_BRAND_LOGO_URL: ""                        # Custom logo URL — square icon, shown in collapsed sidebar
-    NEXT_PUBLIC_BRAND_WORDMARK_URL: ""                    # Custom wordmark URL — wide image, shown in expanded sidebar
-    NEXT_PUBLIC_BRAND_FAVICON_URL: ""                     # Custom favicon URL (leave empty for default)
+    NEXT_PUBLIC_BRAND_NAME: "AInbase"                            # Custom brand name (default "Sim" via envDefaults)
+    NEXT_PUBLIC_BRAND_LOGO_URL: "https://res.cloudinary.com/instadelivery/image/upload/v1778771333/ainbase-logo-dark-text_1_uai8pv.png"                        # Custom logo URL — square icon, shown in collapsed sidebar
+    NEXT_PUBLIC_BRAND_WORDMARK_URL: "https://res.cloudinary.com/instadelivery/image/upload/v1778771333/ainbase-logo-dark-text_1_uai8pv.png"                    # Custom wordmark URL — wide image, shown in expanded sidebar
+    NEXT_PUBLIC_BRAND_FAVICON_URL: "https://res.cloudinary.com/instadelivery/image/upload/c_scale,h_64/v1778771333/ainbase-isotipo-deep-indigo_ejx7s8.png"                     # Custom favicon URL (leave empty for default)
     NEXT_PUBLIC_BRAND_PRIMARY_COLOR: ""                   # Primary brand color (hex, e.g., "#701a75")
     NEXT_PUBLIC_BRAND_ACCENT_COLOR: ""                    # Accent color (hex, e.g., "#9333ea")
     NEXT_PUBLIC_BRAND_BACKGROUND_COLOR: ""                # Background color (hex, e.g., "#ffffff")
     NEXT_PUBLIC_CUSTOM_CSS_URL: ""                        # Custom stylesheet URL (leave empty for none)
-    NEXT_PUBLIC_SUPPORT_EMAIL: ""                        # Support email address (default "help@sim.ai" via envDefaults)
+    NEXT_PUBLIC_SUPPORT_EMAIL: "help@ainbase.com"                        # Support email address (default "help@sim.ai" via envDefaults)
     NEXT_PUBLIC_DOCUMENTATION_URL: ""                    # Documentation URL (leave empty for none)
     NEXT_PUBLIC_TERMS_URL: ""                            # Terms of service URL (leave empty for none)
     NEXT_PUBLIC_PRIVACY_URL: ""                          # Privacy policy URL (leave empty for none)
